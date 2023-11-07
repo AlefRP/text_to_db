@@ -1,4 +1,4 @@
-# Text To DB Converter - Betha
+# Text To DB Converter
 
 ## Overview
 
