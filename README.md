@@ -4,7 +4,7 @@
 
 This utility is designed to process CSV files containing tax data, translate the column names based on a provided dictionary, and then load the processed data into a PostgreSQL database. If errors occur during processing, the problematic files are recorded in an `error-log.csv` for subsequent review.
 
-![Overview of Text To DB Converter](https://github.com/AlefRP/text_to_db/blob/main/images/TextToDBConverter_Overview.png)
+<img src="https://github.com/AlefRP/text_to_db/blob/main/images/TextToDBConverter_Overview.png" width="500" alt="Overview of Text To DB Converter">
 
 ## Requirements
 
