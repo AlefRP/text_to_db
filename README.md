@@ -1,17 +1,17 @@
 # Text To DB Converter
 
-## Overview
+## Overview 📊
 
 This utility is designed to process CSV files containing tax data, translate the column names based on a provided dictionary, and then load the processed data into a PostgreSQL database. If errors occur during processing, the problematic files are recorded in an `error-log.csv` for subsequent review.
 
 <img src="https://github.com/AlefRP/text_to_db/blob/main/images/TextToDBConverter_Overview.png" width="500" alt="Overview of Text To DB Converter">
 
-## Requirements
+## Requirements 🐍
 
 - Python 3.11.5
 - Libraries: `pandas`, `sqlalchemy`, `csv`, `os`, `shutil`, `tqdm`
 
-## Configuration
+## Configuration ⚙️
 
 1. Database credentials should be set up in the `config_db.py` file:
 
@@ -37,6 +37,6 @@ This utility is designed to process CSV files containing tax data, translate the
 
 4. After configuring the above parameters, run the script to start processing the CSV files. In case of errors, problematic files will be moved to the `temp/processed` folder and errors logged in the `error-log.csv` file.
 
-## License
+## License 📜
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
