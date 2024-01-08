@@ -5,10 +5,12 @@ from modules.folder import (
     load_data_into_db
 )
 
+from config_db import db_schema
+
 def main():
-    csv_directory = 'data/taxes/tax_extraction_17042023'
-    ini_file = 'data/taxes/tax_extraction_17042023/taxes.ini'
-    processed_folder = 'temp/taxes/processed'
+    csv_directory = 'data/{schema}'
+    ini_file = 'data/{schema}/{schema}.ini'
+    processed_folder = 'temp/{schema}/processed'
     schema = 'taxes'
 
     # Remove the temporary directory before processing the files
