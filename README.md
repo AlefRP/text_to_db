@@ -40,7 +40,7 @@ To use the Text To DB Converter, follow these steps:
 
    ```bash
    python main.py
-```
+   ```
 
 ## License 📜
 
