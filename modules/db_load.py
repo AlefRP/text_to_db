@@ -75,7 +75,8 @@ class DatabaseManager:
             return
 
         try:
-            dataframe = pd.read_csv(filepath, delimiter=delimiter, encoding='ISO-8859-1')
+            dataframe = pd.read_csv(filepath, delimiter=delimiter, encoding='ISO-8859-1', quotechar="'", low_memory=False)
+            dataframe.columns = dataframe.columns.str.strip()
         except pd.errors.ParserError as e:
             error_message = f"Failed to read {filepath} due to ParserError: {e}"
             print(error_message)
