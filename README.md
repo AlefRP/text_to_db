@@ -22,7 +22,7 @@ This utility is designed to process CSV files containing tax data, translate the
    db_port = 'db_port'
    db_name = 'db_name'
    db_schema = 'test'
-```
+   ```
 
 2. Ensure that the PostgreSQL database is running and that the credentials provided in the `config_db.py` file are correct.
 
